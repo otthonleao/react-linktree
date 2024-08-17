@@ -1,7 +1,9 @@
-export default function Home() {
+import Home from "./home/page";
+
+export default function Page() {
   return (
-      <div className="w-full h-screen bg-neutral-800">
-          <h1 className="text-white text-3xl">Page.tsx</h1>
-      </div>
-  );
+    <>
+      <Home/>
+    </>
+  )
 }
