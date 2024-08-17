@@ -1,7 +1,7 @@
 export function Social() {
     return (
         <div>
-            <h1>Login Page</h1>
+            <h1>Social Media Page</h1>
         </div>
     );
 }
